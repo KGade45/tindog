@@ -1,0 +1,211 @@
+body{
+    text-align: center;
+}
+
+/* Headings */
+
+.main-heading{
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.feature-heading{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.price-heading{
+    font-family: 'Montserrat';
+}
+
+.price-rate{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.subscription-type{
+    line-height: 1.5rem;
+}
+
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 5% 7%;
+}
+
+
+/* Title section */
+#title{
+    text-align: left;
+}
+
+/* google play logo */
+span img{
+    height: 1.5rem;
+    width: 1.4rem;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
+p{
+    color: #afafaf;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+
+/* Download buttons */
+.Download-btn{
+    margin: 5% 3% 5% 0;
+    height: 50px;
+}
+
+
+/* Title image */
+.phone{
+    width: 20%;
+    transform: rotate(30deg);
+    position: absolute;
+    text-align: left;
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testomonial section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonials-image{
+    border-radius: 100%;
+    width: 12%;
+    margin: 20px 30px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+
+.press-logo{
+    width: 10%;
+    margin: 20px;
+}
+
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-col{
+    align-items: center;
+}
+.card{
+    /* width: 18rem; */
+    /* margin: 0 70px; */
+    margin-bottom: 10px;
+}
+
+.card-header{
+    background-color:#cacaca ;
+}
+
+.card-body{
+    background-color: #f1f1f1 ;
+}
+
+
+
+/* CTA */
+
+#cta h3{
+    padding-top: 10%;
+}
+
+
+
+/* footer..... */
+#footer{
+    padding: 8%;
+}
+
+#footer i{
+    padding: 1%;
+    margin: 0.1%;
+    cursor: pointer;
+}
+
+
+
+/* Media query */
+
+@media (max-width:991.90px){
+    #title{
+        text-align: center;
+    }
+    .phone{
+        /* position: static;
+        transform: rotate(0); */
+        display: none;
+    }
+
+}
+
+.Huge{
+    font-size: 10rem;
+}
